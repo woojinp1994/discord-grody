@@ -1,4 +1,4 @@
-# discord-grody
+# Grody - a Grocery List Discord Bot
 
 ## Introduction
 
