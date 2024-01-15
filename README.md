@@ -1,4 +1,4 @@
-### Grody - a Grocery List Discord Bot
+# Grody - a Grocery List Discord Bot
 
 ## Introduction
 
@@ -8,10 +8,10 @@ This is a simple grocery list bot based in Discord, built using discord.py.
 
 You can use the bot using the prefix "!". Current main commands include:
 
-# !info - gives information on the bot as well as commands
-# !list - lists out all items in the current channel's list
-# !add - adds an item to the current channel's list
-# !clear - clears all items in the current channel's list
+### !info - gives information on the bot as well as commands
+### !list - lists out all items in the current channel's list
+### !add - adds an item to the current channel's list
+### !clear - clears all items in the current channel's list
 
 
 
