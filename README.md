@@ -24,5 +24,7 @@ You can use the bot using the prefix "!". Current main commands include:
 ## Roadmap and To-Do's
 
 Add analytics
+
 Add per channel functionality
+
 Add metadata for users and channels
