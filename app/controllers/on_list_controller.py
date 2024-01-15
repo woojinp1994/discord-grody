@@ -47,11 +47,11 @@ class ConfirmView(discord.ui.View):
 
 
 async def handle(ctx):
-    channel1 = str(ctx.channel.id)
+    channel1 = 'g' + str(ctx.channel.id)
 
-    db = getattr(db_client, channel1)
+    db = getattr(db_client, 'grocerieslog')
 
-    groceries = db.groceries_log.find({},{"item":1})
+    groceries = db[channel1].find({},{"item":1})
     
     current_keypair = {}
     for i in groceries:
